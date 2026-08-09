@@ -17,8 +17,8 @@ export default function App() {
         <Hero />
         <Concept />
         <Locations />
-        <Turnkey />
         <Seasonal />
+        <Turnkey />
         <Demo />
         <CTA />
       </main>

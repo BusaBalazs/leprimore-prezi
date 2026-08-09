@@ -43,7 +43,7 @@ export default function CTA() {
         <Reveal
           delay={0.2}
           as="p"
-          className="mt-6 max-w-xl text-[15px] leading-relaxed text-white/85 sm:text-base"
+          className="mt-6 max-w-160 text-[15px] leading-relaxed text-white/85 sm:text-base"
         >
           {c.body}
         </Reveal>
@@ -105,7 +105,7 @@ export default function CTA() {
         </div>
 
         <div className="mt-16 text-[11px] uppercase tracking-[0.2em] text-white/30">
-          Le Primore Hotel &amp; SPA &nbsp;×&nbsp; MemQRy —{" "}
+          Le Primore Hotel &amp; SPA &nbsp;×&nbsp; QRMB —{" "}
           {new Date().getFullYear()}
         </div>
       </div>
