@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand tokens — from client design reference */
+  --color-primary: #0d4632;      /* Le Primore Deep Green */
+  --color-primary-light: #145a41;
+  --color-accent: #cbb26a;       /* Premium Gold */
+  --color-accent-soft: #e2d4ab;
+  --color-bg: #f8f9fa;
+  --color-text: #2b2b2b;
+
+  /* Extended studio palette, derived from the brief */
+  --color-cream: #fbf8f2;        /* warm card surface, distinct from page bg */
+  --color-line: #e3dcc9;         /* hairline rule on light sections */
+  --color-ink: #071310;          /* green-black for the closing CTA, not flat #000 */
+  --color-ink-line: #1c2e27;
+
+  --font-display: "Fraunces", "Iowan Old Style", serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --animate-float: float 7s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: var(--color-ink);
+}
+
+/* visible keyboard focus everywhere */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.font-display { font-family: var(--font-display); }
+
+/* signature: interlocking-heart motif rendered as a thin double-arc divider,
+   echoing the Le Primore mark and the Le Primore × MemQRy partnership */
+.motif-divider {
+  position: relative;
+  width: 44px;
+  height: 22px;
+}
