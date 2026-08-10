@@ -7,7 +7,7 @@ import { Eyebrow, SectionIndex, Motif } from "./Atoms";
 import { iconMap } from "./Icons";
 import Reveal from "./Reveal";
 
-const DEMO_URL = "https://leprimore-demo.netlify.app/";
+const DEMO_URL = "https://busabalazs.github.io/demo_prezentation/";
 
 export default function Demo() {
   const { t } = useLanguage();
