@@ -18,13 +18,13 @@ export default function CTA() {
           <img
             src={hotelLogo}
             alt="Le Primore Hotel & SPA"
-            className="h-12 w-auto brightness-0 invert"
+            className="h-24 w-auto brightness-0 invert"
           />
           <Motif tone="dark" />
           <img
             src={memqryLogo}
             alt="MemQRy"
-            className="h-6 w-auto brightness-0 invert opacity-90"
+            className="h-16 w-auto brightness-0 invert opacity-90"
           />
         </Reveal>
 
