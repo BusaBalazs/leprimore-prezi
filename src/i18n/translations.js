@@ -32,7 +32,7 @@ export const translations = {
         {
           icon: "device",
           title: "Egyszerű hozzáférés",
-          body: "Nincs szükség alkalmazásra. Egyetlen kamerabeolvasással a program közvetlenül megnyílik a vendég telefonjának böngészőjében.",
+          body: "A program közvetlenül a telefon böngészőjében nyílik meg, nincs szükség alkalmazás telepítésére.",
         },
         {
           icon: "crown",
@@ -54,7 +54,7 @@ export const translations = {
         },
         {
           title: "Emlék, amit magukkal vihetnek",
-          body: "A sikeres teljesítés után a vendégek egyedi digitális oklevelet kaphatnak, amelyet elmenthetnek vagy megoszthatnak.",
+          body: "A sikeres teljesítés után a vendégek egyedi digitális oklevelet kapnak, amelyet elmenthetnek vagy megoszthatnak.",
         },
       ],
     },
@@ -81,9 +81,9 @@ export const translations = {
 
     seasonal: {
       index: "03 / Szezonalitás",
-      eyebrow: "Rugalmas tartalomkezelés",
+      eyebrow: "Rugalmas platform",
       title: "Mindig az alkalomhoz igazítva",
-      body: "A program tartalma az évszakokhoz, ünnepekhez és a Le Primore eseményeihez igazítható, így a visszatérő vendégek is új történetekkel és feladatokkal találkozhatnak.",
+      body: "A kihelyezett QR-kódok nem egyetlen játékhoz kötött statikus pontok, hanem egy folyamatosan újrahasznosítható digitális infrastruktúrát képeznek. A fizikai állomások megtartásával a háttértartalom bármikor frissíthető, így a platform hosszú távon is változatos marad.",
 
       holidays: [
         "Karácsony",
@@ -94,8 +94,6 @@ export const translations = {
         "Húsvét",
         "Valentin-nap",
       ],
-
-      bodyEnd: " vagy akár nyári fesztiválidőszak.",
 
       features: [
         {
@@ -194,7 +192,7 @@ export const translations = {
         {
           icon: "device",
           title: "Seamless Access",
-          body: "No app is required. With a single camera scan, the program opens directly in the guest's smartphone browser.",
+          body: "The program opens directly in the phone's browser, with no need to install an application.",
         },
         {
           icon: "crown",
@@ -243,9 +241,9 @@ export const translations = {
 
     seasonal: {
       index: "03 / Seasonality",
-      eyebrow: "Flexible Content Management",
+      eyebrow: "Flexible platform",
       title: "Tailored to Every Occasion",
-      body: "The program can be adapted to seasons, holidays and Le Primore events, giving returning guests new stories and challenges to discover.",
+      body: "The deployed QR codes act as a reusable digital infrastructure rather than static, single-use points. Maintaining the physical stations allows the backend content to be updated anytime, keeping the platform dynamic for the long term.",
 
       holidays: [
         "Christmas",
@@ -257,7 +255,6 @@ export const translations = {
         "Valentine's Day",
       ],
 
-      bodyEnd: " or the summer festival season.",
 
       features: [
         {

@@ -24,10 +24,6 @@ export default function Seasonal() {
           </Reveal>
           <Reveal delay={0.15} as="p" className="mt-6 max-w-lg text-[15px] leading-relaxed text-text/70 sm:text-base">
             {s.body}
-            <span className="font-semibold text-primary">
-              {s.holidays.join(", ")}
-            </span>
-            {s.bodyEnd}
           </Reveal>
 
           <Reveal delay={0.2} className="mt-6 flex flex-wrap gap-2.5">
