@@ -2,7 +2,7 @@ import { useLanguage } from "../context/LanguageContext";
 import { Eyebrow, Motif } from "./Atoms";
 import Reveal from "./Reveal";
 import hotelLogo from "../assets/hotel_logo.png";
-import memqryLogo from "../assets/memqry.svg";
+import memqryLogo from "../assets/qrmb.webp";
 
 export default function CTA() {
   const { t } = useLanguage();
@@ -50,7 +50,8 @@ export default function CTA() {
 
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">
           <a
-            href={`mailto:${c.email}`}
+            href="https://qrmb.hu/"
+            target="_blank"
             className="group flex items-center gap-3 rounded-full border border-white/15 bg-white/[0.04] px-6 py-3.5 text-sm font-medium text-white transition-all duration-300 hover:border-accent/60 hover:bg-white/[0.08]"
           >
             <svg
@@ -105,7 +106,7 @@ export default function CTA() {
         </div>
 
         <div className="mt-16 text-[11px] uppercase tracking-[0.2em] text-white/30">
-          Le Primore Hotel &amp; SPA &nbsp;×&nbsp; QRMB —{" "}
+          Le Primore Hotel &amp; SPA &nbsp;|&nbsp; QRMB {" "}
           {new Date().getFullYear()}
         </div>
       </div>

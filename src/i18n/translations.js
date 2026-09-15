@@ -12,7 +12,7 @@ export const translations = {
     hero: {
       eyebrow: "A vendégélmény új dimenziója",
       title: "Emlékezetes Pillanatok a Le Primore Vendégeinek",
-      body: "Egy játékos, interaktív program, amely tartalmas elfoglaltságot kínál a vendégeknek a Le Primore területén.",
+      body: "Egy játékos, interaktív program, amely tartalmas elfoglaltságot kínál a vendégeknek a szálloda területén.",
       footer: "Készítette: QRMB  |  Interaktív digitális élmények",
       scroll: "Görgessen a felfedezéshez",
     },
@@ -23,9 +23,10 @@ export const translations = {
       title: "Játék, felfedezés, közös kaland",
 
       body: [
-        "A vendégek saját tempójukban haladhatnak végig egy történetbe épített játékon, amely mozgásra, felfedezésre és közös szórakozásra ösztönöz.",
-        "A diszkréten elhelyezett QR-pontok jelölik az egyes állomásokat, ahol a vendégeket logikai, ügyességi, kreatív és történetközpontú kihívások várják.",
-        "A feladatok teljesítésével a résztvevők továbbhaladhatnak, új tartalmakat oldhatnak fel, vagy akár kedvezményeket és extra szolgáltatásokat szerezhetnek.",
+        "Stúdiónk interaktív, webalapú élmények fejlesztésére specializálódott. Digitális megoldásainkkal egyedi vendégélményt teremtünk, miközben újszerű módon mutatjuk be a szálloda szolgáltatásait.",
+        "Alkalmazásunk izgalmas kalandra hívja a vendégeket: a kihelyezett QR-pontoknál logikai, ügyességi és kreatív kihívások várják őket.",
+
+        "A feladatok teljesítésével újabb történetek és élmények nyílnak meg, a játékosok pedig kedvezményeket és extra szolgáltatásokat gyűjthetnek.",
       ],
 
       features: [
@@ -54,7 +55,7 @@ export const translations = {
         },
         {
           title: "Emlék, amit magukkal vihetnek",
-          body: "A sikeres teljesítés után a vendégek egyedi digitális oklevelet kapnak, amelyet elmenthetnek vagy megoszthatnak.",
+          body: "A sikeres teljesítés után a vendégek egyedi digitális oklevelet kapnak, amelyet elmenthetnek és megoszthatnak.",
         },
       ],
     },
@@ -132,8 +133,8 @@ export const translations = {
     demo: {
       index: "05 / Interaktív demó",
       eyebrow: "Bemutató",
-      title: "Próbálja ki a játékokat!",
-      body: "Válasszon a különböző korosztályok számára készült játékok közül, és próbálja ki őket saját készülékén.",
+      title: "Tapasztalja meg első kézből a vendégélményt!",
+      body: "Válasszon a modulok közül, és tekintse meg a játékok hangulatát saját készülékén! Ez a rövid ízelítő csupán egy kis betekintést nyújt a Le Primore számára kialakítható teljes élménykínálatból.",
 
       features: [
         {
@@ -153,7 +154,7 @@ export const translations = {
       title: "",
       body: "A bemutató csupán ízelítő a koncepcióban rejlő lehetőségekből. Szívesen egyeztetek Önnel arról, hogyan formálhatjuk ezt a megoldást a Le Primore vendégélményének szerves részévé.",
       web: "www.qrmb.hu",
-      email: "e-mail",
+      email: "info@qrmb.hu",
       phone: "+36 70 314 5178",
       writeUs: "Írjon nekünk",
     },
@@ -162,162 +163,162 @@ export const translations = {
   en: {
     nav: {
       concept: "Concept",
-      locations: "Business Value",
+      locations: "Business Benefits",
       seasonal: "Seasonality",
-      business: "Implementation",
+      business: "Turnkey Solution",
       demo: "Demo",
       cta: "Contact",
     },
 
     hero: {
       eyebrow: "A New Dimension of Guest Experience",
-      title: "Memorable Moments for Le Primore Guests",
-      body: "An interactive game and activity program that gives guests something meaningful to enjoy during their stay at Le Primore.",
+      title: "Memorable Moments for Guests of Le Primore",
+      body: "A playful, interactive program offering meaningful engagement for guests throughout the hotel.",
       footer: "Created by QRMB  |  Interactive Digital Experiences",
       scroll: "Scroll to explore",
     },
 
     concept: {
       index: "01 / Concept",
-      eyebrow: "The Concept Behind It",
-      title: "Play, Explore, Share the Adventure",
+      eyebrow: "Core Concept",
+      title: "Play, Discovery, Shared Adventure",
 
       body: [
-        "Guests can follow a story-driven game at their own pace, combining movement, exploration and shared entertainment.",
-        "Discreetly placed QR checkpoints mark each station, where guests encounter logic puzzles, dexterity tasks, creative challenges, and story-driven activities.",
-        "By completing challenges, participants can progress, unlock new content, or receive special offers and additional services.",
+        "Our studio specializes in developing interactive, web-based experiences. Through our digital solutions, we create unique guest experiences while showcasing hotel services in an innovative way.",
+        "Our application invites guests on an exciting adventure: logical, skill-based, and creative challenges await them at designated QR points.",
+
+        "By completing tasks, guests unlock new storylines and experiences while earning discounts and extra perks.",
       ],
 
       features: [
         {
           icon: "device",
           title: "Seamless Access",
-          body: "The program opens directly in the phone's browser, with no need to install an application.",
+          body: "The program opens directly in the mobile browser—no app installation required.",
         },
         {
           icon: "crown",
-          title: "Tailored to the World of Le Primore",
-          body: "Stories, challenges and visual elements can be adapted to the hotel's identity, atmosphere, services and surroundings.",
+          title: "Tailored to Le Primore",
+          body: "Stories, tasks, and visual elements are fully customizable to match the hotel's brand, atmosphere, services, and surroundings.",
         },
       ],
     },
 
     locations: {
-      index: "02 / Business Value",
+      index: "02 / Business Benefits",
       title: "More Than Entertainment",
-      body: "The program not only gives guests something enjoyable to do, but also creates new opportunities to showcase hotel services and encourage further guest engagement.",
+      body: "The program offers more than just activities—it creates new opportunities to promote hotel services and encourage further guest engagement.",
 
       cards: [
         {
           title: "Promoting Additional Services",
-          body: "Personalized offers presented throughout the game can guide guests towards wellness, dining and other hotel services.",
+          body: "Personalized offers integrated into the game guide guests toward wellness, gastronomy, and other hotel amenities.",
         },
         {
-          title: "A Memorable Takeaway",
-          body: "Upon completion, guests receive a personalized digital certificate that can be saved as a keepsake or shared online.",
+          title: "A Keepsake to Take Home",
+          body: "Upon completion, guests receive a personalized digital certificate they can save and share.",
         },
       ],
     },
 
     turnkey: {
       eyebrow: "Operations & Support",
-      title: "End-to-End Implementation",
-      lead: "QRMB manages the complete digital infrastructure, from design and development to hosting and ongoing operations.",
-      body: "Requiring no technical resources or daily operational involvement from hotel staff.",
+      title: "Full-Service Execution",
+      lead: "QRMB handles the entire digital infrastructure from design and development to hosting and continuous operation.",
+      body: "No technical resources or staff involvement are required from the hotel.",
 
       features: [
         {
           icon: "cloud",
-          title: "Seamless Management",
-          body: "Development, secure hosting, and ongoing technical maintenance are fully handled on our side.",
+          title: "Hassle-Free Maintenance",
+          body: "We fully manage development, secure hosting, and technical updates.",
         },
         {
           icon: "pen",
-          title: "Flexible Updates",
-          body: "We oversee periodic content updates, seasonal updates, and future enhancements.",
+          title: "Flexible Content Updates",
+          body: "We handle periodic content refreshes, seasonal updates, and future enhancements.",
         },
       ],
     },
 
     seasonal: {
       index: "03 / Seasonality",
-      eyebrow: "Flexible platform",
-      title: "Tailored to Every Occasion",
-      body: "The deployed QR codes act as a reusable digital infrastructure rather than static, single-use points. Maintaining the physical stations allows the backend content to be updated anytime, keeping the platform dynamic for the long term.",
+      eyebrow: "Flexible Platform",
+      title: "Always Tailored to the Occasion",
+      body: "The physical QR codes are not static single-use checkpoints, but a reusable digital infrastructure. By keeping the physical stations in place, backend content can be updated anytime, ensuring long-term variety.",
 
       holidays: [
         "Christmas",
         "New Year's Eve",
         "Halloween",
-        "Le Primore events",
-        "Events in Hévíz",
+        "Le Primore Events",
+        "Hévíz Local Events",
         "Easter",
         "Valentine's Day",
       ],
 
-
       features: [
         {
           icon: "reset",
-          title: "Updatable Content",
-          body: "Stories, challenges and visual elements can be adapted to the current season or special occasion.",
+          title: "Dynamic Content",
+          body: "Storylines, challenges, and graphics adapt seamlessly to current seasons or events.",
         },
         {
           icon: "globe",
-          title: "Multilingual",
-          body: "Available in Hungarian and English, with additional languages on request.",
+          title: "Multilingual Support",
+          body: "Available in Hungarian and English, with additional languages supported upon request.",
         },
       ],
     },
 
     business: {
       index: "04 / Implementation",
-      title: "Custom Content, Full Support",
+      title: "Custom Content, End-to-End Support",
 
       cards: [
         {
           icon: "pen",
           title: "Tailored to the Hotel",
-          lead: "Every detail can be adapted to the world of Le Primore.",
-          body: "The content, story, visual design and challenges can all be tailored to the hotel's identity and guests.",
+          lead: "Every detail aligns with the essence of Le Primore.",
+          body: "Program content, narrative, visual design, and interactive tasks are custom-crafted for the hotel’s brand identity and guest profile.",
         },
         {
           icon: "cloud",
           title: "Turnkey Solution",
-          lead: "The technical background is taken care of.",
-          body: "From development and hosting to ongoing updates, QRMB manages the complete digital solution.",
+          lead: "No technical overhead required.",
+          body: "From development and hosting to regular updates, QRMB manages the complete digital ecosystem.",
         },
       ],
     },
 
     demo: {
       index: "05 / Interactive Demo",
-      eyebrow: "Demo",
-      title: "Try the Games",
-      body: "Choose from games designed for different age groups and try them directly on your own device.",
+      eyebrow: "Preview",
+      title: "Experience the Guest Journey Firsthand",
+      body: "Select a module and experience the game's atmosphere directly on your device. This short preview offers a glimpse into the full experience package we can design for Le Primore.",
 
       features: [
         {
           icon: "check",
-          title: "Two Age Groups, Two Adventures",
-          body: "The demo features a playful journey of discovery for our youngest guests, as well as a story-driven mystery designed for older children, teens, and adults.",
+          title: "Two Age Groups, Two Distinct Adventures",
+          body: "The demo showcases a fairytale exploration path for young children and a story-driven mystery for older kids, teens, and adults.",
         },
       ],
 
-      qrCaption: "Scan the QR code with your phone!",
+      qrCaption: "Scan the QR code with your mobile phone!",
       qrDescription:
-        "Viewing the presentation on your phone? Tap the button to continue.",
-      qrLink: "Open the Games",
+        "Viewing this presentation on mobile? Tap the button below!",
+      qrLink: "Launch Demo Games",
     },
 
     cta: {
-      eyebrow: "Next Step",
+      eyebrow: "Next Steps",
       title: "",
-      body: "This demo is merely a glimpse of what is possible. I would be delighted to discuss how we can tailor this solution into a seamless part of the Le Primore guest journey.",
+      body: "This presentation is just a glimpse of what's possible. I would welcome the opportunity to discuss how we can tailor this solution to become an integral part of the Le Primore guest experience.",
       web: "www.qrmb.hu",
-      email: "e-mail",
+      email: "info@qrmb.hu",
       phone: "+36 70 314 5178",
-      writeUs: "Write to us",
+      writeUs: "Contact Us",
     },
   },
 };
